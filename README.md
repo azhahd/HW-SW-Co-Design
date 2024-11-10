@@ -1,1 +1,7 @@
-# HW-SW-Co-Design
+# HW-SW Co-Design with MicroBlaze & ARM
+
+This project explores the integration of hardware and software through the use of both softcore and hardcore processors. Using a MicroBlaze softcore processor, communication was facilitated via the AXI GPIO block to control 16-bit LEDs from 16-bit input switches. The hardware was configured on the Artix-7 FPGA using the Digilent Nexys A7 board, while the ARM Cortex-A9 hardcore processor was implemented on a Zynq FPGA for more complex tasks. Custom IP blocks were created and connected to the Zynq-7000 hardware processor to ensure seamless operation and effective task management.
+
+The project showcases the distinct advantage of combining softcore and hardcore processors for versatile embedded system applications. The MicroBlaze processor handled straightforward input-output tasks, while the ARM Cortex-A9 processor enabled efficient performance profiling for applications like “Hello World” and matrix operations. This setup highlighted the project’s adaptability and the power of using programmable logic alongside embedded processing. Performance was monitored to identify and address potential bottlenecks, ensuring robust system operation.
+
+This co-design approach is significant as it bridges the flexibility of software programming with the efficiency of hardware execution. It demonstrates how combining different processing units can lead to an optimized system capable of handling a range of tasks. Such an architecture is not only useful for academic learning but also provides a solid foundation for real-world applications where embedded systems need customizable, efficient solutions.
